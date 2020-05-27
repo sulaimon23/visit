@@ -359,7 +359,7 @@ body {
 	padding:10px;
 	color: black;
 	text-align: center;
-	width: 200px;
+	width: 100%;
 	box-shadow: 1px 1px 6px rgb(172, 168, 168);
 	transition: all 0.8s;
 	cursor: default;
@@ -372,7 +372,7 @@ body {
 	background: rgba(193, 195, 224, 1);
 	color: black;
 	text-align: center;
-	width:199px;
+	width:100%;
 	transition:all 0.8s;
 	cursor: default;
 }
@@ -732,6 +732,12 @@ footer:before{
 	}
 	footer{
 		padding: 0;
+	}
+	.red{
+		width: 200px !important;
+	}
+	.wrap{
+		width: 200px !important;
 	}
 	.int{
 		text-align: center !important;
